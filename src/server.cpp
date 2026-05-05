@@ -4,6 +4,7 @@
 #include <vector>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <cstring>
 
 void handle_client(int client_socket)
 {
